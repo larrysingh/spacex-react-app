@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 function Header() {
   return (
     <div className={styles.headerContainer}>
-      <a href="#">
+      <a href="/">
         <img src="/assets/logo.png" width="200px" className={styles.logo} />
       </a>
       <nav class="navbar navbar-expand-lg navbar-dark">
