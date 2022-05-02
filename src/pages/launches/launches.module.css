@@ -32,10 +32,19 @@
 
 h1 {
   font-family: "Radio Canada", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   padding: 0px;
   padding-top: 15px;
+}
+
+.crewHeading {
+  font-family: "Radio Canada", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0px;
+  padding-top: 5px;
+  color: #dcdde1;
 }
 
 h2 {

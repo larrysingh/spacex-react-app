@@ -7,7 +7,7 @@ function Header() {
         <img src="/assets/logo.png" width="200px" className={styles.logo} />
       </a>
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
+        <div class="container-fluid justify-content-center">
           <button
             class="navbar-toggler"
             type="button"
