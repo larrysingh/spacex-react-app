@@ -14,8 +14,6 @@ function Rockets() {
     getData();
   }, []);
 
-  console.log(rocketData);
-
   return (
     rocketData && (
       <div className={styles.contentContainer}>

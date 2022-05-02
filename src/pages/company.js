@@ -14,8 +14,6 @@ function Company() {
     getData();
   }, []);
 
-  console.log(companyData);
-
   return (
     companyData && (
       <div className={styles.contentContainer}>

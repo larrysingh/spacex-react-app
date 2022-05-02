@@ -30,9 +30,6 @@ function LaunchDetails() {
     }
   }, [params]);
 
-  console.log(launchData);
-  console.log(crewDetails);
-
   return (
     <div>
       <div className={styles.contentContainer}>

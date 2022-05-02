@@ -17,8 +17,6 @@ function Home() {
     getData();
   }, []);
 
-  console.log(nextLaunch);
-
   return (
     nextLaunch &&
     lastLaunch && (

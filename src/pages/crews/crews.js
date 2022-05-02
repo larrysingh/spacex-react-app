@@ -14,8 +14,6 @@ function Crews() {
     getData();
   }, []);
 
-  console.log(crewData);
-
   return (
     crewData && (
       <div className={styles.contentContainer}>

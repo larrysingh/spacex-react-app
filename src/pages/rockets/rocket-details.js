@@ -18,8 +18,6 @@ function RocketDetails() {
     }
   }, [params]);
 
-  console.log(rocketData);
-
   return (
     <div className={styles.contentContainer}>
       {rocketData && (

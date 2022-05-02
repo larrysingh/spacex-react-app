@@ -30,9 +30,6 @@ function CrewDetails() {
     }
   }, [params]);
 
-  console.log(crewMemberData);
-  console.log(launchDetails);
-
   return (
     <div className={styles.contentContainer}>
       {crewMemberData && (

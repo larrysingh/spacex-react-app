@@ -14,8 +14,6 @@ function Launches() {
     getData();
   }, []);
 
-  console.log(launchData);
-
   return (
     launchData && (
       <div className={styles.contentContainer}>
